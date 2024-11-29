@@ -1,0 +1,52 @@
+.Nav_wrapper{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12%;
+  top: 0;
+  z-index: 9999;
+
+  border-bottom: 0.5px solid rgba(0 , 0, 0);
+
+}
+
+.navSticky{
+  box-shadow: 0 5px 2px rgba(0,0,0,0.1);
+}
+
+.Nav_wrapper ul li {
+  display: inline-block;
+  margin: 0 12px;
+  
+}
+
+.Nav_wrapper ul li a{
+  color: #1e1e1e;
+}
+
+/* .nav-btn {
+  margin-right: 40px;
+  color: aqua;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-btn i{
+  color: aqua;
+  font-size: 20px;
+  cursor: pointer;
+   
+} */
+
+
+.nav_btns{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav_btns #bar{
+  height: 100px;
+}

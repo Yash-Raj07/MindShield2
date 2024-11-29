@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  background-color: #f3eeee;
+  color: #fff;
+}
+
+.mindshield-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.mindshield-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-weight: 700;
+  font-size: 24px;
+  color: #233348;
+}
+
+.mindshield-nav a {
+  color: #0c0c18;
+  margin: 0 15px;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.mindshield-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 50px;
+}
+
+.mindshield-content {
+  max-width: 500px;
+}
+
+.mindshield-content h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000;
+}
+
+.mindshield-content p {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+}
+
+.register-button {
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.mindshield-image img {
+  border-radius: 10px;
+}
+

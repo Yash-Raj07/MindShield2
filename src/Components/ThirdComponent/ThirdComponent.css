@@ -1,0 +1,56 @@
+
+
+.ThirdComp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 50px;
+  
+}
+
+.content {
+  max-width: 800px;
+  max-height: 600px;
+}
+
+.content h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000;
+}
+
+.mindshield-content p {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+}
+
+
+.bg img {
+  padding: 50px;
+  padding-top: 30px;
+  margin: 30px;
+  
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  
+}
+
+
+.lm-button {
+  background-color: #4a90e2;
+  color: #f7efef;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 35px;
+}
